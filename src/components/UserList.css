@@ -1,0 +1,30 @@
+.father{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 50px auto;
+    background-color: rgb(238, 235, 235);
+    border-radius: 40px;
+    border: 2px solid rgb(243, 117, 117);
+    
+}
+.father>*{
+    margin: 10px;
+    height: 350px;
+    width: 280px;
+    border: 2px solid black;
+    background-color: rgba(202, 199, 199, 0.781);
+    border-radius: 20px ;
+}
+.father img{
+    display: block;
+    border: 5px solid red;
+    border-radius: 100%;
+    width: 100px;
+    height: 80px;
+    margin: 50px auto; 
+}
+.Body{
+    text-align: center;
+}
